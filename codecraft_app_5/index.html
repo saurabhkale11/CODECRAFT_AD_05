@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>QR Code Scanner</h1>
+    <div id="scanner">
+        <video id="preview" width="100%" height="auto" playsinline></video>
+        <button id="startButton">Start Scanning</button>
+        <p id="result"></p>
+        <a id="actionLink" href="#" target="_blank" style="display:none;">Open Link</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
